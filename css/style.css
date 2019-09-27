@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    overflow: hidden;
+    clear: both;
+}
+
+nav>.right-nav {
+    margin: 10;
+}
+
+nav>.right-nav a {
+    padding: 5px;
+    height: 100%;
+}
+
+.google-logo {
+    width: 92px;
+    height: auto;
+    vertical-align: center;
+    margin: 5px 20px 0px 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sec-nav {
+    overflow: hidden;
+    padding: 5px;
+}
+.left-nav {
+    float: left;
+}
+
+.right-nav {
+    float: right;
+}
+
+nav>div {
+    margin: 10px;
+}
+
+.nav-image>a {
+    display: inline-block;
+    height: 15px;
+    padding: 0px;
+    margin: 0px 5px;
+}
+
+
+.search_field {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+.search_field * {
+    height: 30px;
+}
+
+.search_field input {
+    border: none;
+    border-radius: 10px;
+    margin-left: 5px;
+    padding: 0px 8px;
+    width: 350px;
+}
+
+input:focus {
+    outline: none !important;
+}
+
+.search_field a {
+    border: none;
+    background: none;
+    vertical-align: center;
+}
+
+img.magnifying {
+    height: 20px;
+    width: 20px; 
+    padding: 2px 2px 0px 2px;
+}
+
+img.mic {
+    height: 25px;
+    width: 20px;
+    margin-right: 3px;
+    padding: 7px 4px 0px 2px;
+}
+
+nav img {
+    height: 20px;
+    width: 20px;
+    vertical-align: center;
+}
+
+.circle {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.search-type img {
+    height: 15px;
+    width: 15px;
+    vertical-align: center;
+}
+
+.sec-nav {
+    padding-left: 10%;
+    width: 650px;
+}
+
+.sec-nav a {
+    padding: 10px;
+    overflow: hidden;
+    clear: both;
+    color: #5f6368;
+}
+
+.sec-nav a:hover {
+    color: #1a73e8;
+}
+
+.search-result-count {
+    padding: 15px;
+    padding-left: 10%;
+    color: #70757a;
+}
+
+.content {
+    padding-left: 10%;
+}
+
+.element {
+    width: 600px;
+    margin-bottom: 30px;
+}
+
+.title a {
+    color: #1a0db3;
+    font-size: 20px;
+}
+
+.title:hover {
+    text-decoration: underline;
+}
+
+.link a {
+    color: #006621;
+    font-size: 18px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.details {
+    font-size: 16px;
+}
+
+.page-bottom {
+    text-align: center;
+}
+
+.page-bottom a {
+    padding: 0px 3px;
+    color: #4285f4;
+}
+
+.next {
+    padding-left: 40px !important;
+}
+
+footer {
+    margin-top: 20px;
+    padding-left: 10%;
+    background: #f2f2f2;
+}
+
+footer>div {
+    padding: 10px 0px;
+    margin: 5px 0px;
+}
+
+footer a {
+    padding: 5px;
+    color: #9fa09f;
+    line-height: 20px;
+}
+
+footer hr {
+    width: 70%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.right-border {
+    padding-right: 5px;
+    border-right: 1px solid #9fa09f;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+      width: 700px; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
